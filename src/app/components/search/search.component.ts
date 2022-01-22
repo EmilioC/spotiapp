@@ -16,6 +16,7 @@ export class SearchComponent implements OnInit {
   }
 
   buscar(termino:string){
+    console.log("Insite buscar method");
     
     this.spotyfy.getArtistas( termino )
     .subscribe( (data: any) =>

@@ -13,4 +13,8 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  homeButton(){
+    console.log("Button Home pulsado");
+  }
+
 }
